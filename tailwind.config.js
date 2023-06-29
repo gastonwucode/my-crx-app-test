@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  // prefix: 'twl-',
-  content: ["./src/**/*.{html,js,vue}"],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
-  plugins: [require("tailwind-scrollbar")({ nocompatible: true }), require("prettier-plugin-tailwindcss")],
-
+  plugins: [],
 }

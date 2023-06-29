@@ -37,5 +37,11 @@
   ],
   "engines": {
     "node": ">=14.18.0"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
   }
 }
